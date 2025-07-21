@@ -19,5 +19,5 @@ def load_randoms(randoms_file):
     return randoms_map, count
 
 if __name__ == "__main__":
-    randoms_map, count = load_randoms("IntroToPy/randoms_db.txt")
-    print(f"Loaded {len(randoms_map.keys())} unique random generated in a sequence of {count} iterations")
+  randoms_map, count = load_randoms("IntroToPy/randoms_db.txt")
+  print(f"Loaded {len(randoms_map.keys())} unique random generated in a sequence of {count} iterations")
